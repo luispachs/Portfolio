@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laps Dev</title>
-    <link>http://luispachs.github.io/</link>
+    <link>https://luispachs.github.io/</link>
     <description>Recent content on Laps Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Apr 2023 15:00:12 -0500</lastBuildDate><atom:link href="http://luispachs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Apr 2023 15:00:12 -0500</lastBuildDate><atom:link href="https://luispachs.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduccion_hugo</title>
-      <link>http://luispachs.github.io/blog/introduccion_hugo/</link>
+      <link>https://luispachs.github.io/blog/introduccion_hugo/</link>
       <pubDate>Sat, 29 Apr 2023 15:00:12 -0500</pubDate>
       
-      <guid>http://luispachs.github.io/blog/introduccion_hugo/</guid>
+      <guid>https://luispachs.github.io/blog/introduccion_hugo/</guid>
       <description>Introduccion a Hugo Hugo es una herramienta de generación de sitios web estáticos de alto rendimiento que utiliza archivos de texto plano para crear páginas web. Es conocido por ser rápido y fácil de usar, lo que lo convierte en una opción popular para desarrolladores y diseñadores que buscan una forma eficiente de construir y mantener sitios web estáticos. Hugo utiliza la sintaxis Markdown para escribir contenido y plantillas personalizables para el diseño y la estructura de las páginas.</description>
     </item>
     
