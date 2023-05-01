@@ -1,0 +1,22 @@
+<div class="container-fluid" id="header">
+    <nav class="navbar">
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/android-chrome-192x192.png" alt="" width="50" height="50">
+                </a>
+            </div>
+            <div>
+                <ul class="nav">
+                    {{range .Site.Menus.main}}
+                    {{if .PageRef}}
+                    <li class="nav-item"><a class="nav-link" href="{{.PageRef}}">{{.Name}}</a></li>
+                    {{else}}
+                    <li class="nav-item"><a class="nav-link" href="{{.URL}}">{{.Name}}</a></li>
+                    {{end}}
+                    {{end}}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

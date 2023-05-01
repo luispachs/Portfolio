@@ -1,0 +1,66 @@
+{{define "main"}}
+<div id="about-me" class="container">
+    <div class="col-12">
+        <Section class="row">
+            <div class="col-lg-7 col-xs-6">
+                <h1 class="title">Luis Pacheco - Desarrollador </h1>
+                <p class="text-center">Soy luis pacheco, me considero un persona que afronta desafios al
+                    momento de llevar acabo mi trabajo.<br>
+                    Me encanta el mundo de la tecnologia y busco siempre adquirir conocimiento que me permitan explotar
+                    mi
+                    potencial, ademas, de permitir aportar los equipos con los que trabajo
+                </p>
+            </div>
+
+            <div class="col-lg-5 col-xs-6 ">
+                <div>
+                    <img src="/assets/DALL_E_1.png" alt="personaje"
+                        srcset="/assets/DALL_E_xs_edit.png 10w,/assets/DALL_E_tables.png 125w,/assets/DALL_E_1.png 250w"
+                        sizes="(max-width:430px) 10px, (max-width:810px) 150px , 200px" />
+                </div>
+            </div>
+        </Section>
+    </div>
+    <div class="col-12">
+        <section class="row">
+            <div class="skils">
+                <div class="carrusel">
+                    <div class="carrusel-item"><img src="/assets/git-100.png" alt="Git"></div>
+                    <div class="carrusel-item"><img src="/assets/javascript-100.png" alt="javascript"></div>
+                    <div class="carrusel-item"><img src="/assets/laravel-100.png" alt="laravel"></div>
+                    <div class="carrusel-item"><img src="/assets/mongodb-100.png" alt="mongodb"></div>
+                    <div class="carrusel-item"><img src="/assets/php-100.png" alt="Php"></div>
+                    <div class="carrusel-item"><img src="/assets/cs-100.png" alt="C Sharp"></div>
+                    <div class="carrusel-item" id="react"><img src="/assets/react-100.png" alt="React JS"></div>
+                    <div class="carrusel-item"><img src="/assets/sql-100.png" alt="SQL"></div>
+                    <div class="carrusel-item"><img src="/assets/symfony-100.png" alt="Symfony"></div>
+                    <div class="carrusel-item"><img src="/assets/vue.js-100.png" alt="Vue JS"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="container" id="my-works">
+    <section class="row">
+        <h2 class="title">Mi portafolio</h2>
+        <div class="project-container">
+            <div class="project">
+                <figure>
+                    <img src="/assets/project_2.webp" alt="Proyecto 2" width="245" class="image-project" />
+                    <figcaption class="text-center-nbg"><a href="https://github.com/luispachs/sql-format-date"
+                            target="_blank" class="nav-link">Libreria php</a></figcaption>
+                </figure>
+            </div>
+            <div class="project">
+                <figure>
+                    <img src="/assets/project_3.webp" alt="Proeycto 3" width="245" class="image-project" />
+                    <figcaption class="text-center-nbg"><a href="https://github.com/luispachs/yen-leyva-portfolio"
+                            target="_blank" class="nav-link">Portafolio manicurista</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="/js/scroll.js"></script>
+{{end}}

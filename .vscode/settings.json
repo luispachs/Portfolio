@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.tree.indent": 8
+}

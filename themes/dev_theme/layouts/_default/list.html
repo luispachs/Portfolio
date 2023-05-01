@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="container">
+    {{ .Content }}
+    {{range .Site.Menus.main}}
+    {{if eq .Name "blog"}}
+    <section class="container">
+
+        {{range .Children}}
+        <div class="card">
+            <img class="card-img" src="{{.Params.img}}" />
+            <div class="card-body">
+                <h5 class="card-title">{{.Params.title}}</h5>
+                <p class="card-text">{{.Params.description}}</p>
+                <a class="btn btn-success" href="{{.URL}}">Leer...</a>
+            </div>
+        </div>
+        {{end}}
+
+    </section>
+    {{end}}
+    {{end}}
+
+</section>
+{{ end }}

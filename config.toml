@@ -1,0 +1,59 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Laps Dev'
+theme = 'dev_theme'
+
+[params]
+    github = "https://github.com/luispachs/"
+    linkedin = "https://www.linkedin.com/in/luis-pacheco-6697a01a6/"
+
+[menu]
+[[menu.main]]
+    name = "home"
+    pageRef = "/"
+    weight = 97
+[[menu.main]]
+    name = "about me"
+    pageRef = "/#about-me"
+    weight = 98
+[[menu.main]]
+    name = "blog"
+    url = "/blog/"
+    weight = 99
+[[menu.main]]
+    name = "introduccion a Hugo"
+    url = "/blog/introduccion_hugo"
+    weight = 80
+    parent = "blog"
+    [menu.main.params]
+        title = "Introducción a Hugo"
+        description = "Herramienta de generación de sitios web estáticos, lo que significa que permite crear páginas web sin la necesidad de un servidor web que genere el contenido en el momento de la solicitud."
+        img ="/img/goHugo.jpg"
+[[menu.main]]
+    name = "links"
+    pageRef = "#links"
+    weight = 100
+
+    
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = false
+      xhtml = false
