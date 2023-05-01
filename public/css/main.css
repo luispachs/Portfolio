@@ -1,0 +1,222 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-size: medium;
+}
+
+:root {
+    --primary-100: #26A69A;
+    --primary-200: #408d86;
+    --primary-300: #cdfaf6;
+    --accent-100: #80CBC4;
+    --accent-200: #43A49B;
+    --text-100: #263339;
+    --text-200: #728f9e;
+    --bg-100: #E0F2F1;
+    --bg-200: #D0EBEA;
+    --bg-300: #FFFFFF;
+    font-family: "poppins-regular";
+    size: 12px;
+    background: var(--bg-200);
+    color: var(--text-100);
+}
+
+#react {
+    animation: rotateAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+#react:hover {
+    animation: carruselItemAnimation 0.5s 1 ease-in forwards
+}
+
+@keyframes carruselItemAnimation {
+    from {
+        filter: drop-shadow(0px 0px 0px #43A49B);
+    }
+
+    to {
+        filter: drop-shadow(5px 2.5px 0px #43A49B);
+    }
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-200);
+    height: 50vh;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    background: var(--bg-200);
+    padding-top: 10vh;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+.nav-link {
+    color: var(--text-100);
+}
+
+.nav-link:hover {
+    color: var(--bg-300);
+    border-bottom: var(--bg-300) solid 1px;
+}
+
+#footer-card {
+    background-color: var(--primary-100);
+    border: var(--six-bg-color) solid 1px
+}
+
+#header {
+    background-color: var(--primary-200);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.text-center {
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: var(--accent-100);
+    border-radius: 10px;
+
+}
+
+.text-left {
+    text-align: left;
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
+
+.code {
+    background: var(--primary-300);
+    border-radius: 10px;
+    color: var(--text-200);
+    width: 70%;
+    text-align: left;
+    padding-left: 5%;
+    border: var(--text-200) solid 1px;
+    box-shadow: 2px 2px 1px 0.5px var(--primary-200);
+}
+
+.bg-accent-100 {
+    background-color: var(--accent-100);
+    border-radius: 10px;
+}
+
+.bg-primary-300 {
+    background-color: var(--primary-300);
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 2.5vh;
+}
+
+
+.title {
+    text-align: center;
+    width: 100%;
+    padding: 20px 5px;
+    background-color: var(--accent-200);
+    color: var(--bg-300);
+    border-radius: 10px;
+}
+
+#about-me {
+    height: 60vh;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.p-10 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+#my-works {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.carrusel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.carrusel-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+.carrusel-item:hover {
+    animation: carruselItemAnimation 0.5s ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.image-project {
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
