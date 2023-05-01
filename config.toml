@@ -2,7 +2,7 @@ baseURL = 'https://luispachs.github.io/'
 languageCode = 'en-us'
 title = 'Laps Dev'
 theme = 'dev_theme'
-canonifyURLs = true
+relativeURLs = true
 
 [params]
     github = "https://github.com/luispachs/"
