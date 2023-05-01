@@ -2,8 +2,8 @@ baseURL = ''
 languageCode = 'es-es'
 title = 'Laps Dev'
 theme = 'dev_theme'
-canonifyURLs = false
-relativeURLs = true
+canonifyURLs = true
+
 
 [params]
     github = "https://github.com/luispachs/"
