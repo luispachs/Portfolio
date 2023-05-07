@@ -62,5 +62,32 @@
         </div>
     </section>
 </div>
+<div class="container" id="blog">
+    <section class="row">
+        <ul class="nav">
+            {{range .Pages}}
+            {{if eq .Name "Blog"}}
+
+            {{range first 3 .Pages}}
+            <li class=" nav-item">
+                <div class="card bg-primary-300" style="max-width: 60%;">
+                    <img src="{{.Params.img}}" alt="Imagen Blog" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">{{.Title}}</h3>
+                        <p class="card-text text-left">
+                            {{.Params.description}}
+                        </p>
+                        <a href="{{.Permalink}}" class=".nav-link">Leer...</a>
+                    </div>
+
+                </div>
+            </li>
+            {{end}}
+
+            {{end}}
+            {{end}}
+        </ul>
+    </section>
+</div>
 <script src="/js/scroll.js"></script>
 {{end}}

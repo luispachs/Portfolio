@@ -5,3 +5,20 @@
     crossorigin="anonymous"></script>
 <link href="/css/main.css" rel="stylesheet">
 <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+{{if eq .Title "Laps Dev"}}
+<meta name="description" content="Pagina de inicio, portafolio de luis pacheco" />
+<meta name="title" content="Laps Dev Home page" />
+<meta name="keywords" content="Laps Dev,desarrollo web, programación, desarrollo de escritorio, desarrollo movil" />
+<meta name="author" content="Luis Pacheco" />
+{{else}}
+<meta name="description" content="{{.Params.description}}" />
+<meta name="title" content="{{.Title}}" />
+<meta name="keywords" content="{{range .Params.keywords}}{{(.)}}{{end}}" />
+<meta name="author" content="{{.Params.author}}" />
+{{end}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1915870944079368"
+    crossorigin="anonymous"></script>

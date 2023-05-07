@@ -1,7 +1,16 @@
 ---
-title: "Introduccion_hugo"
+title: "Introducción hugo"
 date: 2023-04-29T15:00:12-05:00
 draft: false
+description: "Introducción a la increible herramienta  de creación de contenido estatico Hugo."
+img: "/img/goHugo.webp"
+author: "Luis Pacheco"
+keywords:
+    - "introducción a hugo,"
+    - "desarrollo de contenido estatico,"
+    - "Hugo,"
+    - "goHugo,"
+    - "crear proyecto de hugo"
 ---
 ![Introduccion a hugo](/img/goHugo.webp)
 
