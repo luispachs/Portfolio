@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.luisdev.tech/blog/introduccion_hugo/</loc>
+    <loc>https://lapsdev.tech/blog/introduccion_hugo/</loc>
     <lastmod>2023-04-29T15:00:12-05:00</lastmod>
   </url><url>
-    <loc>https://www.luisdev.tech/</loc>
+    <loc>https://lapsdev.tech/</loc>
     <lastmod>2023-04-29T15:00:12-05:00</lastmod>
   </url><url>
-    <loc>https://www.luisdev.tech/blog/</loc>
+    <loc>https://lapsdev.tech/blog/</loc>
     <lastmod>2023-04-22T16:26:33-05:00</lastmod>
   </url><url>
-    <loc>https://www.luisdev.tech/categories/</loc>
+    <loc>https://lapsdev.tech/categories/</loc>
   </url><url>
-    <loc>https://www.luisdev.tech/tags/</loc>
+    <loc>https://lapsdev.tech/tags/</loc>
   </url>
 </urlset>

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Laps Dev</title>
-    <link>https://www.luisdev.tech/tags/</link>
+    <link>https://lapsdev.tech/tags/</link>
     <description>Recent content in Tags on Laps Dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language><atom:link href="https://www.luisdev.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-ES</language><atom:link href="https://lapsdev.tech/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

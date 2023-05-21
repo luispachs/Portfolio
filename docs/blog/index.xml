@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Laps Dev</title>
-    <link>https://www.luisdev.tech/blog/</link>
+    <link>https://lapsdev.tech/blog/</link>
     <description>Recent content in Blog on Laps Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sat, 22 Apr 2023 16:26:33 -0500</lastBuildDate><atom:link href="https://www.luisdev.tech/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2023 16:26:33 -0500</lastBuildDate><atom:link href="https://lapsdev.tech/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducción hugo</title>
-      <link>https://www.luisdev.tech/blog/introduccion_hugo/</link>
+      <link>https://lapsdev.tech/blog/introduccion_hugo/</link>
       <pubDate>Sat, 29 Apr 2023 15:00:12 -0500</pubDate>
       
-      <guid>https://www.luisdev.tech/blog/introduccion_hugo/</guid>
+      <guid>https://lapsdev.tech/blog/introduccion_hugo/</guid>
       <description>Introduccion a Hugo Hugo es una poderosa herramienta para la creación de proyectos de proposito general rapido, y facil de usar.
 Util para la generación de codigo estatico.
 Este esta escrito en lenguaje Go.
