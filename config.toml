@@ -1,4 +1,4 @@
-baseURL = 'https://www.luisdev.tech/'
+baseURL = 'https://www.lapsdev.tech/'
 languageCode = 'es-ES'
 title = 'Laps Dev'
 theme = 'dev_theme'
