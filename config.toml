@@ -1,4 +1,4 @@
-baseURL = 'https://luispachs.github.io/Portfolio/'
+baseURL = 'https://www.luisdev.tech/'
 languageCode = 'es-ES'
 title = 'Laps Dev'
 theme = 'dev_theme'
