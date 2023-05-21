@@ -214,6 +214,10 @@ img {
     justify-content: center;
 }
 
+.blogItem {
+    max-width: 60%;
+}
+
 .blog-content {
     display: flex;
     align-items: center;
@@ -256,5 +260,9 @@ img {
     .carrusel {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogItem {
+        max-width: 100%;
     }
 }

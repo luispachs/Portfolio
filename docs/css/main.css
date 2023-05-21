@@ -214,9 +214,55 @@ img {
     justify-content: center;
 }
 
+.blogItem {
+    max-width: 60%;
+}
+
 .blog-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width :768px) {
+    footer {
+        height: fit-content;
+    }
+
+    #about-me {
+        height: fit-content;
+    }
+
+    #my-works {
+        height: fit-content;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        height: fit-content;
+    }
+
+    .carrusel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogItem {
+        max-width: 100%;
+    }
 }

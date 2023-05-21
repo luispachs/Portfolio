@@ -6,8 +6,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-<link href="https://luispachs.github.io/Portfolio/css/main.css" rel="stylesheet">
-<link rel="shortcut icon" href="https://luispachs.github.io/Portfolio/assets/favicon.ico" type="image/x-icon">
+<link href="https://www.luisdev.tech/css/main.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.luisdev.tech/assets/favicon.ico" type="image/x-icon">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -17,31 +17,29 @@
 <meta name="title" content="Introducción hugo" />
 <meta name="keywords" content="introducción a hugo,desarrollo de contenido estatico,Hugo,goHugo,crear proyecto de hugo" />
 <meta name="author" content="Luis Pacheco" />
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1915870944079368"
-    crossorigin="anonymous"></script></head>
+</head>
 
 <body><div class="container-fluid" id="header">
     <nav class="navbar">
         <div class="container">
             <div>
                 <a class="navbar-brand" href="#">
-                    <img src="https://luispachs.github.io/Portfolio/assets/android-chrome-192x192.png" alt="" width="50" height="50">
+                    <img src="https://www.luisdev.tech/assets/android-chrome-192x192.png" alt="" width="50" height="50">
                 </a>
             </div>
             <div>
                 <ul class="nav">
                     
                     
-                    <li class="nav-item"><a class="nav-link" href="https://luispachs.github.io/Portfolio/">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.luisdev.tech/">home</a></li>
                     
                     
                     
-                    <li class="nav-item"><a class="nav-link" href="https://luispachs.github.io/Portfolio/#about-me">about me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.luisdev.tech/#about-me">about me</a></li>
                     
                     
                     
-                    <li class="nav-item"><a class="nav-link" href="https://luispachs.github.io/Portfolio/blog/">blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.luisdev.tech/blog/">blog</a></li>
                     
                     
                     
@@ -53,102 +51,98 @@
         </div>
     </nav>
 </div><div id="content" class="container-fluid">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1915870944079368"
+    crossorigin="anonymous"></script>
 <div class="row">
     <section class="blog">
         <div class="col-lg-8 blog-content">
-            <p><img src="https://luispachs.github.io/Portfolio/img/goHugo.webp" alt="Introduccion a hugo"></p>
-<h2 id="introduccion-a-hugo" class="title">Introduccion a Hugo</h2>
-<p class="text-left">Hugo es una herramienta de generación de sitios web estáticos de alto rendimiento que utiliza archivos de texto plano para crear páginas web. Es conocido por ser rápido y fácil de usar, lo que lo convierte en una opción popular para desarrolladores y diseñadores que buscan una forma eficiente de construir y mantener sitios web estáticos. Hugo utiliza la sintaxis Markdown para escribir contenido y plantillas personalizables para el diseño y la estructura de las páginas. Además, ofrece una amplia gama de funciones y características que lo hacen flexible y escalable para proyectos de cualquier tamaño y complejidad.</p>
-<p>A continuación describiremos el proceso de creación de tu primera página web haciendo uso de esta herramienta.</p>
-<p id="windows" class="text-left"><strong>Windows</strong></p>
-<p class="text-left"><strong>Requisitos</strong></p>
+            <p><img src="https://www.luisdev.tech/img/goHugo.webp" alt="Introduccion a hugo"></p>
+<h1 id="introduccion-a-hugo" class="title">Introduccion a Hugo</h1>
+<p class="text-left">Hugo es una poderosa herramienta para la creación de proyectos de proposito general rapido, y facil de usar.<br>
+Util para la generación de codigo estatico.<br>
+Este esta escrito en lenguaje Go.</p>
+<p class="text-left">Se caracteriza por ser multiplataforma, disponible  para su uso en Windows, Mac Os y distrubuciones linux como</p>
 <ul class="text-left">
-<li>Tener instalado Chocolatey (un gestor de paquetes para Windows).</li>
+<li>Ubuntu</li>
+<li>Fedora</li>
+<li>OpenSUSE</li>
+<li>Solus</li>
+<li>Arch linux</li>
 </ul>
+<p>Para poder instalar esta maravillosa  herramienta puedes seguir las instrucciones dadas en la pagina oficial de <a href="https://gohugo.io/installation/">Hugo</a>,<br>
+ten en cuenta que esta documentacón se en ingles, en ella se encontrará como realizar este proceso para las distintas plataformas.</p>
+<h2 id="guia-de-uso" class="title">Guia de uso.</h2>
+<p class="text-left"><strong>Crear un nuevo proyecto.</strong><br>
+Para crear un nuevo proyecto debe de ejecutar el siguiente comando:</p>
+<blockquote class="code"><blockquote>
+<p>hugo new site <strong>nombre_de_sitio</strong></p>
+</blockquote>
+</blockquote>
+<p class="text-left">Este comando te generará el andamiaje de tu primer sitio con hugo, el cual te creará los siguiente archivos</p>
+<p class="text-left"><img src="https://www.luisdev.tech/img/estructura_proyecto.png" alt="Estrutura del proyecto"><br>
+Al iniciar a trabajar con hugo podemos hacerlo usando un tema diseñado por  la comunidad, o crear tu propio diseño.<br>
+Para generar tu propio diseño puede hacer uso del directorio <strong>layouts</strong> y en ella definir un su interior un subdirectorio llamado <strong>_default</strong>, dentro de este crearemos 3 archivos.</p>
 <ul class="text-left">
-<li>Tener acceso a una línea de comando (cmd o PowerShell)</li>
+<li>baseof.html
+<blockquote>
+<p>En el cual se definirá el diseño compartido de todas tus paginas.</p>
+</blockquote>
+</li>
+<li>list.html
+<blockquote>
+<p>En esta se definirá la vistas de tipo listas, mas adelante explicaremos este tipo de vista.</p>
+</blockquote>
+</li>
+<li>single.html
+<blockquote>
+<p>En esta se definirá la estructa del contenido individual</p>
+</blockquote>
+</li>
 </ul>
-<ol class="text-left">
-<li>Comando a ejecutar:</li>
-</ol>
-<blockquote class="code"><p>choco install hugo -confirm</p>
+<p class="text-left">Ademas, en el directorio definiremos un archivo llamado index.html, el cual sera el punto de entrada para nuestro proyecto.<br>
+Para el alcanze de este primer post de hugo, editaremos el archivo <strong>layouts/_default/baseof.html</strong>, y añadiremos  el siguiente  codigo:</p>
+<blockquote class="code"><p>&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;div id=&ldquo;content&rdquo; class=&ldquo;container-fluid&rdquo;&gt;<br>
+{{- block &ldquo;main&rdquo; . }}{{- end }}<br>
+&lt;/div&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</p>
 </blockquote>
-<ol start="2" class="text-left">
-<li>Creación del primer proyecto:<br>
-Para crear un nuevo proyecto en Hugo, debes seguir los siguientes pasos:<br>
-Abre la línea de comando y dirígete a la ubicación donde deseas crear tu nuevo proyecto. Ejecuta el siguiente comando para crear un nuevo sitio Hugo</li>
-</ol>
-<blockquote class="code"><p>hugo new site nombre-del-sitio</p>
+<p class="text-left">Guardamos y editaremos  el archivo <strong>layouts/index.html</strong>, añadiendo el siguiente codigo.</p>
+<blockquote class="code"><p>{{define &ldquo;main&rdquo; .}}<br>
+&lt;h1&gt;Tu primer proyecto en hugo <!-- raw HTML omitted --><br>
+{{end}}</p>
 </blockquote>
-<p class="text-left">Luego, ejecuta el siguiente comando para crear tu primer contenido:</p>
-<blockquote class="code"><p>hugo new posts/mi-primer-post.md</p>
+<p>Ahora para visualizar nuestro proyecto ejecutaremos el siguiente comando:</p>
+<blockquote class="code"><p>hugo server -D</p>
 </blockquote>
-<p id="MacOs" class="text-left"><strong>MacOs</strong></p>
-<p class="text-left"><strong>Requisitos</strong></p>
-<ul class="text-left">
-<li>Tener instalado Homebrew (un gestor de paquetes para MacOS)</li>
-<li>Tener acceso a una línea de comando (Terminal)</li>
-</ul>
-<p class="text-left">Para crear un nuevo proyecto en Hugo, debes seguir los siguientes pasos:</p>
-<ol class="text-left">
-<li>Abre Terminal y dirígete a la ubicación donde deseas crear tu nuevo proyecto. Ejecuta el siguiente comando para crear un nuevo sitio Hugo:</li>
-</ol>
-<blockquote class="code"><p>brew install hugo</p>
-</blockquote>
-<ol start="2" class="text-left">
-<li>Creación del primer proyecto:<br>
-Para crear un nuevo proyecto en Hugo, debes seguir los siguientes pasos:<br>
-Abre Terminal y dirígete a la ubicación donde deseas crear tu nuevo proyecto. Ejecuta el siguiente comando para crear un nuevo sitio Hugo:</li>
-</ol>
-<blockquote class="code"><p>hugo new site nombre-del-sitio</p>
-</blockquote>
-<ol start="3" class="text-left">
-<li>Luego, ejecuta el siguiente comando para crear tu primer contenido:</li>
-</ol>
-<blockquote class="code"><p>hugo new posts/mi-primer-post.md</p>
-</blockquote>
-<p id="ubuntu" class="text-left"><strong>Ubuntu</strong></p>
-<p class="text-left"><strong>Requisitos</strong></p>
-<ol class="text-left">
-<li>Abre Terminal y ejecuta el siguiente comando para instalar Hugo:</li>
-</ol>
-<blockquote class="code"><p>sudo apt-get update<br>
-sudo apt-get install hugo</p>
-</blockquote>
-<ol start="2" class="text-left">
-<li>Creación del primer proyecto:</li>
-</ol>
-<p class="text-left">Para crear un nuevo proyecto en Hugo, debes seguir los siguientes pasos:<br>
-Abre Terminal y dirígete a la ubicación donde deseas crear tu nuevo proyecto. Ejecuta el siguiente comando para crear un nuevo sitio Hugo:</p>
-<blockquote class="code"><p>hugo new site nombre-del-sitio</p>
-</blockquote>
-<p class="text-left">Luego, ejecuta el siguiente comando para crear tu primer contenido:</p>
-<blockquote class="code"><p>hugo new posts/mi-primer-post.md</p>
-</blockquote>
-<p class="text-left"><strong>Probar tu sitio</strong><br>
-Para probar tu sitio, tienes que ejecutar el siguiente comando,el cual inicia un servidor web local que puedes acceder en tu navegador web en la dirección <a href="http://localhost:1313/.">http://localhost:1313/.</a></p>
-<p class="text-left">Este lanzar un servidor de prueba, el cual a medida que realices cambios en el archivo &ldquo;mi-primer-post.md&rdquo; se visualizará  automáticamente.</p>
-<p class="text-center"><strong>En el siguiente post aprenderemos a generar platillas y personalizar el contenido de nuestra pagina</strong></p>
+<p class="text-left">Despues de ejecutarlo podemos abrir nuestro navegador y nos diriguiremos a <strong>localhost:1313</strong> y podremos visualizar el contenido que hemos creado.<br>
+con esto finalizamos esta primera parte de crear proyectos en hugo.</p>
+<p class="text-left">En la proxima entrada crearemos contenidos para vistas de tipo list y single.</p>
 
         </div>
     </section>
 </div>
 
     </div><footer class="container-fluid" id="links">
-    <div class="row">
+    <div class="row" style="padding-top: 15vh;">
         <div class="col-lg-6 col-xs-3 d-flex align-items-center justify-content-center" id="links">
             <ul class="nav flex-column">
                 <li class="nav-item"><a href="https://github.com/luispachs/" target="_blank" class="nav-link"><img
-                            src="https://luispachs.github.io/Portfolio/assets/github_128.png" alt="Github Icon" class="img-fluid" />Github</a></li>
+                            src="https://www.luisdev.tech/assets/github_128.png" alt="Github Icon" class="img-fluid" />Github</a></li>
                 <li class="nav-item"><a href="https://www.linkedin.com/in/luis-pacheco-6697a01a6/" target="_blank" class="nav-link"><img
-                            src="https://luispachs.github.io/Portfolio/assets/linkedin_128.png" alt="Linkedin" class="img-fluid" />Linkedin</a></li>
+                            src="https://www.luisdev.tech/assets/linkedin_128.png" alt="Linkedin" class="img-fluid" />Linkedin</a></li>
             </ul>
         </div>
         <div class="col-lg-6 col-xs-19 d-flex align-items-center justify-content-center">
             <div class="card mb-3" style="max-width: 550px;" id="footer-card">
                 <div class="row g-0">
                     <div class="col-lg-4 col-xs-4">
-                        <img src="https://luispachs.github.io/Portfolio/assets/phone_128.png" class="img-fluid rounded-start" alt="phone icon">
+                        <img src="https://www.luisdev.tech/assets/phone_128.png" class="img-fluid rounded-start" alt="phone icon">
                     </div>
                     <div class="col-lg-8 col-xs-8">
                         <div class="card-body">

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Laps Dev</title>
-    <link>https://luispachs.github.io/Portfolio/categories/</link>
+    <link>https://www.luisdev.tech/categories/</link>
     <description>Recent content in Categories on Laps Dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language><atom:link href="https://luispachs.github.io/Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-ES</language><atom:link href="https://www.luisdev.tech/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
